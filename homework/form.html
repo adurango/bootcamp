@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my Form">
+        <title>My Form</title>
+    </head>
+    <body>
+        <main>
+            <form action="https://formspree.io/adurango@hugeinc.com" method="POST" autocomplete="on" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div>
+                        <label for="user-name">Name</label>
+                        <input id="user-name" type="text" autocomplete="on" name="user-name" placeholder="Please enter your name" required>
+                    </div>
+                    <div>
+                        <label for="user-mail">Email</label>
+                        <input id="user-email" type="text" autocomplete="on" name="user-email" placeholder="Please enter your email" required minlength="5" maxlength="21">
+                    </div>
+                    <div>
+                        <label for="user-dob">Date of Birth</label>
+                        <input id="user-dob" type="date" autocomplete="off" name="user-dob" min="1800.01.01" max="2019.01.01" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Likes</legend>
+                    <div>
+                        <label for="user-hobbies">hobbies</label>
+                        <input id="user-hobbies" type="text" name="hobbies" list="hobbies">
+                        <datalist id="hobbies">
+                            <option value="Music">
+                            <option value="Sports">
+                            <option value="Code">
+                            <option value="Games">
+                            <option value="Others">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="user-fav-color">Favorite Color</label>
+                        <input id="user-fav-color" type="text" autocomplete="off" name="user-fav-color" placeholder= "Please enter your favorite color">
+                    </div>
+                    <div>
+                        <label for="user-fav-animal">Favorite Animal</label>
+                        <input id="user-fav-animal" type="text" autocomplete="off" name="user-fav-animal" placeholder="Please enter your favorite animal">
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
