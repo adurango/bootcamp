@@ -1,0 +1,190 @@
+h1 {
+  font-size: 32px;
+  margin-bottom: 2px
+}
+
+h2 {
+  font-size: 30px;  
+  margin-bottom: 30px
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-family: "Arial", sans;
+}
+
+body {
+  margin: 0px;
+}
+
+a:link {
+  color: #1967d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #174ea6;
+  text-decoration: underline;
+}
+
+section {
+  padding:0px 50px
+}
+
+dt {
+  display: inline;
+}
+
+dd {
+  display: inline-block;
+  margin-left: 30px;
+
+}
+
+.nav-items {
+  text-align: center
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0px 20px;  
+}
+
+.profession-occupation-section-container {
+  background-color: #F6F6F6;
+  text-align: center;
+  display: block;
+  padding: 40px 20px 20px;
+   
+}
+
+.profession-text {
+  font-size: 25px;
+  font-family: sans;
+  font-weight: normal;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.social-images {
+  display: inline-block;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section-container {
+  margin: 0px 50px;
+}
+
+.experience-section-container {
+  margin: 0px 50px;
+}
+
+
+.web-developer-section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px -50px;
+
+}
+
+.reference-text {
+  margin: 10px 0px 50px;
+}
+
+.reference-aside {
+  background-color: #E8E8E8	;
+  display: inline-block;
+  width: 350px;
+  margin-left:300px;
+  text-align: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.reference-image {
+  border-radius: 50%
+}
+
+.blockquote-text {
+  display: inline-block;
+  width: 250px;
+}
+
+.reference-quote-text {
+  text-align: left;
+  margin: 0px;
+}
+
+.reference-author-text {
+  text-align: right;
+  padding-right: 19px;
+}
+
+.education-section-container {
+  margin: 0px 50px;
+}
+
+.contact-section-container {
+  margin: 80px 50px 0px;
+}
+
+.contact-form {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#hello-text {
+  margin: 50px;
+  text-align: center; 
+}
+
+input[type=text] {
+  width: 450px;
+  padding: 10px;
+  margin: 10px 20px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #F8F8F8;
+  border: 1px solid #D3D3D3;
+  
+}
+
+#user-message {
+  padding: 10px;
+  height: 150px;
+}
+
+label {
+  position: absolutee;
+  
+}
+
+input[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 8px 42px;
+  margin: 20px 2px 4px;
+  border-radius: 4px;
+}
+
+.copyright-text {
+  background-color: #F6F6F6;
+  height: 50px;
+  text-align: center; 
+  padding-top: 35px;
+  margin:0px;
+}
