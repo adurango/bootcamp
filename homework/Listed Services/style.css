@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+
+.card {
+    width: 43%
+}
+
+.card-performance {
+    display: inline-block;
+    margin: 10px 10px 30px;
+}
+
+.card-ecommerce {
+    display: inline-block;
+    margin: 10px 10px 30px;
+}
+
+.card-translate {
+    display: inline-block;
+    margin: 10px 10px 30px;
+}
+
+.card-image {
+    position: absolute;
+    margin: 0px 0px 60px;
+}
+
+h2, p {
+    margin-left: 120px;
+}
+
+.card-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #383838
+}
+
+.card-paragraph {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #696969;
+
+}

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+
+.card {
+  background-color:#1e242a;
+  width: 33%;
+  height: 33%;
+}
+
+.card .card-content {
+  text-align: center;
+  color: rgb(255,255,255);
+  padding: 40px 40px 70px;
+  overflow: auto
+  
+}
+
+.card-image {
+  width: 250px;
+}
+
+.card .card-title {
+  margin: 20px
+  
+}
+
+.card .card-paragraph {
+  line-height: 1.7;
+  margin: 0px 50px 70px;
+}
+
+.card .card-button {
+  border: 1.5px solid white;
+  border-radius: 2px;
+  background-color: transparent;
+  padding:20px 50px;
+  color: rgb(255,255,255);
+  text-decoration: none;
+  margin-bottom: 60px;
+  transition: all .4s;
+  font-size: 12px;
+  text-transform: uppercase
+}
+
+.card-button:hover {
+   background-color: blueviolet;
+   border-color: blueviolet;
+}
