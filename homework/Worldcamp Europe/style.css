@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: "Arimo";
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+      width: 35%
+  }
+
+  .card-wordcamp {
+      background-color: #292827;
+      padding: 50px 50px 80px;
+      text-align: center;
+  }
+
+  .card-wordcamp .card-wordcamp-image {
+      width: 170px;
+  }
+
+  .card-wordcamp .card-wordcamp-heading {
+      margin: 30px 20px 10px;
+      font-size: 27px;
+      text-transform: uppercase;
+      font-family: Arimo;
+      color: #FABD6F;
+  }
+
+  .card-wordcamp .card-wordcamp-paragraph {
+      margin: 20px;
+      color: #F3EFEB;
+  }
+
+  .card-accessibility {
+    background-color: #F6DCC2;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-accessibility .card-accessibility-heading{
+    font-size: 23px;
+}
+
+.card-conduct {
+    background-color: #e8ab47;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-conduct .card-conduct-heading {
+    font-size: 23px;
+    color: white;
+}
+
+.card-contact {
+    background-color: #6C5005;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-contact .card-contact-heading {
+    font-size: 23px;
+    color: white;
+}
+
+.card-faq {
+    background-color: #CB9864;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-faq .card-faq-heading {
+    font-size: 23px;
+    color: white;
+}
