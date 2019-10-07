@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    background-color: #EBF8FF;
+    max-width: 400px;
+    max-height: 900px;
+  }
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content-bookmark-icon {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -20px;
+}
+
+.card-content-heading {
+    font-size: 25px;
+    color: #2587E8;
+    padding-bottom: 10px;
+}
+
+.card-content-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.card-content-paragraph {
+    font-size: 15px;
+    color: #3D3D3D;
+    padding-bottom: 20px;
+}
+
+.card-content-estimated-time {
+    color: #6A6A6A;
+    font-size: 14px;
+}

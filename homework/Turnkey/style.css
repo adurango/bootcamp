@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.card {
+    margin: auto 20px;
+    width: 80%;
+    background-image: url(house.jpg);
+    background-repeat: no-repeat;
+    height: 480px;
+    max-width: 1000px;
+}
+
+.card .card-content {
+    width: 38%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.904) ;
+    float: right;
+    padding: 50px 20px 50px 50px;
+}
+
+.card .card-content-heading {
+    color: orangered;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card .card-content-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1;
+    width: 93%;
+    margin: 20px 0px;
+}
+
+.card-content .price {
+    color: orangered;
+}
+
+.card .card-content-list {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 18px;
+}
+
+.card .card-content-list li {
+    display: inline-block;
+    font-size: 11px;
+    width: 45%;
+}
+
+.card .card-content-list li::before {
+    content: "•";
+    color: orangered;
+    font-size: 30px;
+    display: inline-block;
+    width: 16px;
+    margin-left: -16px;
+    vertical-align: middle; 
+}
+
+.card .card-content-button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 27px;
+    margin-top: 20px;
+    background-color: orangered;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.card .card-button:active,
+.card .card-button:visited,
+.card .card-button:link {
+  text-decoration: none;
+}
+
+.card .card-content-button:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.308);
+}
