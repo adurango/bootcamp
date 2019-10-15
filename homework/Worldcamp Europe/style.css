@@ -6,7 +6,9 @@
   }
 
   .card {
-      width: 35%
+      width: 30%;
+      min-width: 500px;
+      
   }
 
   .card-wordcamp {
@@ -36,6 +38,7 @@
     background-color: #F6DCC2;
     padding: 40px;
     text-align: center;
+    transition: all .3s;
 }
 
 .card-accessibility .card-accessibility-heading{
@@ -46,6 +49,7 @@
     background-color: #e8ab47;
     padding: 40px;
     text-align: center;
+    transition: all .3s;
 }
 
 .card-conduct .card-conduct-heading {
@@ -57,6 +61,7 @@
     background-color: #6C5005;
     padding: 40px;
     text-align: center;
+    transition: all .3s;
 }
 
 .card-contact .card-contact-heading {
@@ -68,9 +73,30 @@
     background-color: #CB9864;
     padding: 40px;
     text-align: center;
+    transition: all .3s;
 }
 
 .card-faq .card-faq-heading {
     font-size: 23px;
     color: white;
+}
+
+.card-accessibility:hover {
+    background-color: rgb(224, 188, 152);
+    cursor: pointer;
+}
+
+.card-conduct:hover {
+    background-color: #c4831a;
+    cursor: pointer;
+}
+
+.card-contact:hover {
+    background-color: rgb(88, 68, 11);
+    cursor: pointer;
+}
+
+.card-faq:hover {
+    background-color: rgb(151, 109, 67);
+    cursor: pointer;
 }

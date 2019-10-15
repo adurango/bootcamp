@@ -9,6 +9,7 @@
   background-color:#1e242a;
   width: 33%;
   height: 33%;
+  min-width: 500px;
 }
 
 .card .card-content {

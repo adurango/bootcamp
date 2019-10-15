@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+
+.card {
+    width: 28%;
+    min-width: 470px;
+    padding: 10px 0px 0px;
+    background-color: #ea178c;
+}
+
+li {
+    width: 435px;
+    margin-left: 12px;
+    padding: 30px;
+    color: white;
+    border-top: 0.2px solid white; 
+    font-size: 15px;
+    font-weight: 300;
+    list-style: none;  
+    transition: all .3s; 
+}
+
+li::after {
+    content: "";
+    display: inline-block;
+    background: url("iconmonstr-arrow-right-thin-24.png") no-repeat;
+    width: 30px;
+    height: 20px;
+    vertical-align: bottom;
+    margin-left: 75px;
+}
+
+li:hover {
+    background-color: #ac1166;
+    transition: all .3s;
+}
